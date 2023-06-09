@@ -1,0 +1,1021 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@500&display=swap");
+
+.main-navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 0.5;
+  font-family: "Work Sans";
+}
+
+.humburger-nav {
+  display: none;
+}
+
+.nav-menu {
+  display: flex;
+  gap: 28px;
+}
+
+.nav-menu span {
+  opacity: 15%;
+}
+
+.nav-inside-menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.nav-menu a {
+  color: #1f1f1f;
+  text-decoration: none;
+}
+
+.nav-menu a:hover {
+  color: #009846;
+}
+
+.nav-flg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flg-inside {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.flg-inside img {
+  width: 32px;
+  height: 32px;
+}
+
+.flg-inside button {
+  font-family: "Work Sans";
+  font-weight: 600;
+  font-size: 18px;
+  background-color: #009846;
+  color: white;
+  padding: 1%;
+  border: none;
+  border-radius: 5px;
+  width: 155px;
+  height: 52px;
+}
+
+/* main-banner css */
+
+.main-banner {
+  margin-top: 20px;
+}
+
+.main-banner-inside {
+  display: flex;
+  flex-direction: column;
+  width: 918px;
+  padding-top: 13%;
+  padding-left: 8%;
+  gap: 20px;
+}
+
+.main-banner-inside span {
+  font-family: "Work Sans";
+  font-size: 60px;
+  line-height: 86px;
+  color: white;
+}
+
+.main-banner-inside p {
+  font-family: "Work Sans";
+  font-size: 18px;
+  color: white;
+  padding-right: 28%;
+  line-height: 30px;
+}
+
+.main-banner-inside button {
+  font-family: "Work Sans";
+  font-weight: 600;
+  font-size: 18px;
+  width: 155px;
+  height: 52px;
+  color: #009846;
+}
+
+/* who we are page CSS */
+
+.intro-page {
+  padding: 5%;
+}
+
+.intro-page-logo {
+  display: flex;
+  justify-content: start;
+}
+
+.intro-page-anologo {
+  display: flex;
+  justify-content: end;
+}
+
+.into-page-about {
+  position: relative;
+  display: flex;
+  gap: 12%;
+}
+
+.about-engineerImage img {
+  border-radius: 20px;
+}
+
+.about-engineerImage2 {
+  position: absolute;
+  top: 21.7rem;
+  left: 25%;
+}
+
+.about-engineerImage2 img {
+  border-radius: 20px;
+}
+
+.intro-page-description {
+  display: flex;
+  flex-direction: column;
+  gap: 2%;
+}
+
+.intro-page-who-logo {
+  display: flex;
+  gap: 1px;
+  font-family: "Work Sans";
+  font-size: 24px;
+  font-style: italic;
+}
+
+.intro-page-description-span {
+  font-family: "Work Sans";
+  font-size: 50px;
+  line-height: 72px;
+}
+
+.intro-page-description p {
+  font-family: "Work Sans";
+  font-size: 20px;
+  line-height: 25px;
+  color: #787878;
+}
+
+.intro-page-description-inside {
+  display: flex;
+  gap: 10%;
+}
+
+.intro-page-mini {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: flex-start;
+}
+
+.intro-page-mini label {
+  font-family: "Work Sans";
+  font-size: 28px;
+  line-height: 34px;
+}
+
+.intro-page-mini p {
+  font-family: "Work Sans";
+  font-size: 18px;
+  line-height: 30px;
+  color: #787878;
+}
+
+/* smart turbine page css */
+
+.turbine-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 50px;
+}
+
+.turbine-page-logo {
+  display: flex;
+  justify-content: end;
+}
+
+.turbine-page-inside {
+  display: flex;
+  flex-direction: column;
+  padding: 6%;
+  align-items: center;
+}
+
+.turbine-page-smart-logo {
+  display: flex;
+  font-family: "Work Sans";
+  font-style: italic;
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: 0.01em;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.turbine-page-span {
+  color: white;
+}
+
+.turbine-page-inside {
+  font-family: "Work Sans";
+  color: white;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.turbine-page-description {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 105px;
+}
+
+.turbine-page-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.box-inside {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  padding: 18px;
+  border-radius: 20px;
+}
+
+.turbine-box-inside {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  color: black;
+}
+
+.turbine-box-inside label {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 61px;
+  color: #1f1f1f;
+}
+
+.turbine-box-inside span {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  color: #898989;
+}
+
+/* working page  css */
+
+.working-page {
+  padding: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.working-page label {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 52px;
+  line-height: 72px;
+  text-align: center;
+}
+
+.working-page p {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  color: #787878;
+  text-align: center;
+}
+
+.snake-part {
+  /* background-color: red; */
+  display: flex;
+  padding: 300px;
+}
+
+.part1 {
+  position: absolute;
+  left: 500px;
+}
+
+.working-page-img img {
+  width: auto;
+}
+
+/* our Clint page css */
+
+.ourclient-page {
+  background-color: #009846;
+  /* height: 642px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 53px;
+  padding-top: 120px;
+  padding-bottom: 5%;
+}
+
+.ourclient-page-title label {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 52px;
+  line-height: 72px;
+  color: #ffffff;
+}
+
+/* .clint-companies-logo{
+display: flex;
+
+ gap: 30px;
+ padding-left: 20px;
+} */
+
+.clint-companies-logo {
+  display: grid;
+  /* grid-template-rows: repeat(2fr, 1fr);  */
+  grid-template-columns: repeat(7, 2fr);
+  /* grid-template-columns: 3fr 3fr 3fr 3fr 3fr 3fr 3fr 3fr; */
+  grid-gap: 30px;
+  padding-left: 20px;
+}
+
+.clint-companies-logo img {
+  border-radius: 10px;
+  width: 200px;
+}
+
+.our-blog-page {
+  margin-top: 9%;
+}
+
+/* blog page css */
+.blog-card-new {
+  display: flex;
+  gap: 25px;
+}
+
+.our-blog-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+.our-blog-lable {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 52px;
+  line-height: 72px;
+  text-align: center;
+}
+
+.our-blog-page button {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 0.01em;
+  background-color: #009846;
+  color: white;
+  padding: 1%;
+  border: none;
+  border-radius: 5px;
+  width: 195px;
+  height: 52px;
+  padding-bottom: 2%;
+}
+
+.blog-card1 {
+  display: flex;
+  flex-direction: row;
+}
+
+.blog-card {
+  display: flex;
+  width: 785px;
+  height: 340px;
+  background-color: #f7f7f7;
+  gap: 25px;
+}
+
+.blog-card img {
+  width: auto;
+}
+
+.blog-card-inside {
+  display: flex;
+  flex-direction: column;
+  padding-top: 2%;
+  gap: 2%;
+}
+
+.blog-card-inside label {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 40px;
+  color: #666666;
+}
+
+.blog-card-inside span {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 26px;
+  text-transform: capitalize;
+  color: #599537;
+}
+
+.blog-card-inside p {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  color: #787878;
+}
+
+/* footer Page css*/
+.footer-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15%;
+  position: relative;
+  background-color: #1f1f1f;
+}
+
+.footer-tittle {
+  background: #d8f6cf;
+  border-radius: 40px;
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  padding: 2%;
+  align-items: center;
+  position: absolute;
+  margin-top: -713px;
+}
+
+.footer-tittle button {
+  width: 225px;
+  height: 52px;
+  background: #009846;
+  border-radius: 10px;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 0.01em;
+
+  color: #ffffff;
+}
+
+.footer-page-lable {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 72px;
+  color: #1f1f1f;
+}
+
+.footer-description {
+  margin-top: 2%;
+  display: flex;
+  gap: 200px;
+  /* justify-content:space-between;
+  align-items: center; */
+  padding-bottom: 3%;
+}
+
+.desciption-one {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+}
+
+.location-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.location-icon {
+  color: #009846;
+  font-size: 22px;
+}
+
+.footer-copyright {
+  background-color: #009846;
+  padding: 2%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+}
+
+.quick-links {
+  margin-top: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+}
+
+.quick-links2 {
+  margin-top: 14%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+}
+
+.quick-links3 {
+  margin-top: 8%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+}
+
+.aarow-icon {
+  color: #898989;
+  font-size: 20px;
+}
+
+.quick-links label {
+  color: white;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 24px;
+}
+
+.location-footer p {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  color: #898989;
+}
+
+@media only screen and (max-width: 1440px) {
+  .working-page-img img {
+    width: 100%;
+  }
+
+  .clint-companies-logo {
+    grid-template-columns: 3fr 3fr 3fr;
+  }
+
+  .blog-card-new {
+    flex-direction: column;
+  }
+
+  .footer-description {
+    gap: 100px;
+  }
+
+  .footer-tittle {
+    margin-top: -674px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .nav-menu {
+    gap: 12px;
+  }
+
+  .main-navbar {
+    font-size: 12px;
+  }
+
+  .flg-inside button {
+    font-size: 12px;
+    width: 130px;
+    height: 45px;
+  }
+
+  .into-page-about {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+  }
+
+  .about-engineerImage img {
+    width: 80%;
+  }
+
+  .about-engineerImage2 img {
+    width: 80%;
+  }
+
+  .about-engineerImage2 {
+    top: 16.7rem;
+    left: 52%;
+  }
+
+  .turbine-page-inside {
+    padding: 19%;
+    gap: 40px;
+  }
+
+  .turbine-page-inside p {
+    font-size: 25px;
+    text-align: center;
+  }
+
+  .turbine-page-description img {
+    width: 40%;
+  }
+
+  .turbine-box-inside label {
+    font-size: 20px;
+    line-height: 40px;
+  }
+
+  .turbine-box-inside span {
+    font-size: 12px;
+    line-height: 15px;
+  }
+
+  .box-inside {
+    width: 115%;
+  }
+
+  .working-page-img img {
+    width: 107%;
+  }
+
+  .working-page label {
+    font-size: 28px;
+    line-height: 40px;
+  }
+
+  .clint-companies-logo img {
+    width: 150px;
+  }
+
+  .blog-card-new {
+    flex-direction: column;
+  }
+
+  .blog-card {
+    width: 650px;
+    height: 260px;
+  }
+
+  .blog-card img {
+    height: 100%;
+  }
+
+  .footer-description {
+    gap: 25px;
+  }
+
+  .location-footer p {
+    font-size: 12px;
+  }
+
+  .footer-tittle {
+    margin-top: -426px;
+  }
+
+  .footer-page-lable {
+
+    font-size: 30px;
+    line-height: 55px;
+
+  }
+
+  .footer-tittle button {
+    width: 192px;
+    font-size: 17px;
+    line-height: 19px;
+
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .nav-menu {
+    display: none;
+  }
+
+  .main-navbar {
+    justify-content: center;
+    gap: 80px;
+  }
+
+  .humburger-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+  }
+
+  .humburger-nav a {
+    color: #009846;
+  }
+
+  .mobile-menu-link {
+    background-color: #f0ead6;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 25px;
+    align-items: start;
+    top: 70px;
+    right: 90px;
+    position: absolute;
+    padding: 5%;
+    z-index: 1;
+    width: 35%;
+  }
+
+  .mobile-menu-link span {
+    display: none;
+  }
+
+  .mobile-menu-link a {
+    color: #1f1f1f;
+    text-decoration: none;
+  }
+
+  .mobile-menu-link a:hover {
+    color: #009846;
+  }
+
+  .mobile-menu-link a::before {
+    position: absolute;
+    content: "";
+    height: 32px;
+    width: 32px;
+    background-color: #f0ead6;
+    top: -15px;
+    right: 11px;
+    transform: rotate(42deg);
+  }
+
+  .main-banner-inside {
+    width: auto;
+  }
+
+  .about-engineerImage img {
+    width: 50%;
+  }
+
+  .about-engineerImage2 {
+    top: 8.7rem;
+    left: 36%;
+  }
+
+  .about-engineerImage2 img {
+    width: 60%;
+  }
+
+  .intro-page-description-span {
+    font-size: 38px;
+    line-height: 55px;
+  }
+
+  .intro-page-description p {
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  .turbine-page-description {
+    flex-direction: column;
+  }
+
+  .turbine-page-inside p {
+    font-size: 16px;
+  }
+
+  .box-inside {
+    width: 44%;
+    height: 16%;
+  }
+
+  .turbine-page-description {
+    gap: 25px;
+  }
+
+  .footer-description {
+    gap: 5px;
+  }
+
+  .footer-page-lable {
+
+    font-size: 24px;
+    line-height: 30px;
+
+  }
+}
+
+/* mobile */
+
+@media only screen and (max-width: 425px) {
+  .main-navbar {
+    gap: 40px;
+  }
+
+  .main-navbar img {
+    width: 50px;
+    /* height: 40px; */
+    height: auto;
+  }
+
+  .flg-inside button {
+    width: 100px;
+    height: 30px;
+  }
+
+  .flg-inside img {
+    width: 16px;
+    height: 16px;
+  }
+
+  .humburger-nav {
+    font-size: 32px;
+  }
+
+  .mobile-menu-link {
+    top: 57px;
+    right: 22px;
+    width: 40%;
+    border-radius: 2%;
+  }
+
+  .mobile-menu-link a::before {
+    right: 17px;
+  }
+
+  .main-banner-inside {
+    padding-top: 55%;
+  }
+
+  .main-banner-inside span {
+    font-size: 30px;
+    line-height: 40px;
+  }
+
+  .about-engineerImage img {
+    width: 80%;
+  }
+
+  .about-engineerImage2 img {
+    width: 85%;
+  }
+
+  .about-engineerImage2 {
+    top: 9.7rem;
+    left: 50%;
+  }
+  .working-page p {
+    
+    font-size: 16px;
+    line-height: 20px;
+    
+}
+  .intro-page-description-span {
+    font-size: 22px;
+    line-height: 30px;
+  }
+
+  .intro-page-description p {
+    font-size: 12px;
+    line-height: 15px;
+  }
+
+  .intro-page-mini label {
+    font-size: 18px;
+    line-height: 25px;
+  }
+  .ourclient-page-title label {
+    font-size: 42px;
+    line-height: 55px;
+  }
+  .clint-companies-logo {
+    grid-template-columns: 2fr 2fr;
+  }
+
+  .blog-card {
+    width: 330px;
+    height: 150px;
+    gap: 10px;
+  }
+
+  .blog-card img {
+    width: 40%;
+  }
+
+  .blog-card-inside {
+    gap: 1.5%;
+  }
+
+  .blog-card-inside label {
+    font-size: 12px;
+    line-height: 15px;
+  }
+
+  .blog-card-inside span {
+    font-size: 12px;
+    line-height: 20px;
+  }
+
+  .blog-card-inside p {
+    font-size: 12px;
+  }
+
+  .our-blog-lable {
+    font-size: 38px;
+    line-height: 50px;
+  }
+
+
+  .our-blog-page button {
+ 
+    font-size: 16px;
+    line-height: 19px;
+    width: 152px;
+    height: 45px;
+   
+  }
+  .footer-page-lable {
+
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .footer-tittle button {
+    width: 100px;
+    height: 40px;
+    font-size: 12px;
+    line-height: 15px;   
+  }
+  .footer-tittle {
+    margin-top: -1118px;
+}
+
+.footer-description{
+  flex-direction: column;
+  margin-top: 20%;
+  text-align: center;
+ 
+}
+
+.footer-copyright {
+ text-align: center;
+ font-size: 16px;
+}
+}
